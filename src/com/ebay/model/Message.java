@@ -5,7 +5,7 @@ public class Message {
 	public String content;
 	public int message_id;
 	public int sender_id;
-	public int reciover_id;
+	public int reciever_id;
 	
 	public Message(String content, int message_id, int sender_id,
 			int reciover_id) {}
@@ -45,11 +45,11 @@ public class Message {
 	}
 
 	public int getReciover_id() {
-		return reciover_id;
+		return reciever_id;
 	}
 
 	public void setReciover_id(int reciover_id) {
-		this.reciover_id = reciover_id;
+		this.reciever_id = reciover_id;
 	};
 			
 			
