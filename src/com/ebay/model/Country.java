@@ -9,40 +9,60 @@ public class Country {
 	public String name;
 	public String countryCode;
 	
-	public Country(int id, String name, String countryCode) {}
+	/**
+	 * creates a country
+	 * @param id int id of the country
+	 * @param name String name of the country
+	 * @param countryCode String country code
+	 */
+	public Country(int id, String name, String countryCode) {};
 	
+	/**
+	 * saves the country in the database
+	 * @return true or false
+	 */
 	public boolean save(){
 		return false;
 		}
 	
+	/**
+	 * updates country in database
+	 */
 	public void update() {};
 	
-	public static void delete() {};
+	/**
+	 * deletes a country from the database
+	 */
+	public static void delete() {}
 
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
+	/**
+	 * @return the name
+	 */
 	public String getName() {
 		return name;
 	}
 
+	/**
+	 * @param name the name to set
+	 */
 	public void setName(String name) {
 		this.name = name;
 	}
 
-	public String getCountryCode() {
-		return countryCode;
+	/**
+	 * @return the id
+	 */
+	public int getId() {
+		return id;
 	}
 
-	public void setCountryCode(String countryCode) {
-		this.countryCode = countryCode;
+	/**
+	 * @return the countryCode
+	 */
+	public String getCountryCode() {
+		return countryCode;
 	};
+
 	
 	
 }

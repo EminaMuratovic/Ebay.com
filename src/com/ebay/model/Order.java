@@ -1,5 +1,12 @@
 package com.ebay.model;
 
+/**
+ * This class creates an order from the buyer
+ * It has buyer id, seller id, th quantity of the product and his price
+ * And shipment id, because every country has it's own shipment price
+ * @author BITBay
+ *
+ */
 public class Order {
 	
 	public int order_id;
@@ -7,88 +14,119 @@ public class Order {
 	public int seller_id;
 	public int product_id;
 	public int quantity;
-	public int product_price;
+	public float product_price;
 	public int shipment_id;
-	public int total;
+	public float total;
 	
+	/**
+	 * creates an order
+	 * @param order_id int id of the order
+	 * @param buyer_id int id of buyer
+	 * @param seller_id int id of the seller
+	 * @param product_id int id of the product
+	 * @param quantity int quantity of the product
+	 * @param product_price float price of the product
+	 * @param shipment_id int id of the shipment
+	 * @param total float total price
+	 */
 	public Order(int order_id, int buyer_id, int seller_id, int product_id,
 			int quantity, int product_price, int shipment_id, int total) {}
 	
+	/**
+	 * saves the order in the database
+	 * @return true or false
+	 */
 	public boolean save(){
 		return false;
 		}
 	
+	/**
+	 * updates the order to database
+	 */
 	public void update() {};
 	
-	public static void delete() {};
- 
+	/**
+	 * deletes the order from the database
+	 */
+	public static void delete() {}
 
-	public int getOrder_id() {
-		return order_id;
-	}
-
-	public void setOrder_id(int order_id) {
-		this.order_id = order_id;
-	}
-
-	public int getBuyer_id() {
-		return buyer_id;
-	}
-
-	public void setBuyer_id(int buyer_id) {
-		this.buyer_id = buyer_id;
-	}
-
-	public int getSeller_id() {
-		return seller_id;
-	}
-
-	public void setSeller_id(int seller_id) {
-		this.seller_id = seller_id;
-	}
-
-	public int getProduct_id() {
-		return product_id;
-	}
-
-	public void setProduct_id(int product_id) {
-		this.product_id = product_id;
-	}
-
+	/**
+	 * @return the quantity
+	 */
 	public int getQuantity() {
 		return quantity;
 	}
 
+	/**
+	 * @param quantity the quantity to set
+	 */
 	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
 
-	public int getProduct_price() {
+	/**
+	 * @return the product_price
+	 */
+	public float getProduct_price() {
 		return product_price;
 	}
 
-	public void setProduct_price(int product_price) {
+	/**
+	 * @param product_price the product_price to set
+	 */
+	public void setProduct_price(float product_price) {
 		this.product_price = product_price;
 	}
 
-	public int getShipment_id() {
-		return shipment_id;
-	}
-
-	public void setShipment_id(int shipment_id) {
-		this.shipment_id = shipment_id;
-	}
-
-	public int getTotal() {
+	/**
+	 * @return the total
+	 */
+	public float getTotal() {
 		return total;
 	}
 
-	public void setTotal(int total) {
+	/**
+	 * @param total the total to set
+	 */
+	public void setTotal(float total) {
 		this.total = total;
+	}
+
+	/**
+	 * @return the order_id
+	 */
+	public int getOrder_id() {
+		return order_id;
+	}
+
+	/**
+	 * @return the buyer_id
+	 */
+	public int getBuyer_id() {
+		return buyer_id;
+	}
+
+	/**
+	 * @return the seller_id
+	 */
+	public int getSeller_id() {
+		return seller_id;
+	}
+
+	/**
+	 * @return the product_id
+	 */
+	public int getProduct_id() {
+		return product_id;
+	}
+
+	/**
+	 * @return the shipment_id
+	 */
+	public int getShipment_id() {
+		return shipment_id;
 	};
-			
-			
-	
+ 
 	
 	
 	
