@@ -1,4 +1,4 @@
-package com.ebay.model.user;
+package com.ebay.model;
 
 /**
  * Class country determined from witch country is user, buyer or seller, to be

@@ -1,4 +1,4 @@
-package com.ebay.model.user;
+package com.ebay.model;
 
 /**
  * Class which simulates user of our service, and his characteristics.

@@ -1,4 +1,4 @@
-package com.ebay.model.user;
+package com.ebay.model;
 
 
 /**
