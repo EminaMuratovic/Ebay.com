@@ -14,6 +14,7 @@ public class User {
 	public String email;
 	public String password;
 	public String registered;
+	public String role;
 
 	/**
 	 * Constructor
