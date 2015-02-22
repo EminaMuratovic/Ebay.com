@@ -15,10 +15,5 @@ public class Country {
 	public String countryCode;
 	
 	
-	public Country(int id, String name, String countryCode) {
-		
-		this.id = id;
-		this.name = name;
-		this.countryCode = 	countryCode;
-	}
+	public Country(int id, String name, String countryCode) {};
 }

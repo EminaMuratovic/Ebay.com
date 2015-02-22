@@ -14,6 +14,7 @@ public class User {
 	public String email;
 	public String password;
 	public String registered;
+	public String role;
 
 	/**
 	 * Constructor
@@ -26,14 +27,6 @@ public class User {
 	 * @param registered
 	 */
 	public User(int id, String name, String surname, String email,
-			String password, String registered) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.surname = surname;
-		this.email = email;
-		this.password = password;
-		this.registered = registered;
-	}
+			String password, String registered, String role) {};
 
 }
