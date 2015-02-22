@@ -9,5 +9,40 @@ public class Country {
 	public String name;
 	public String countryCode;
 	
-	public Country(int id, String name, String countryCode) {};
+	public Country(int id, String name, String countryCode) {}
+	
+	public boolean save(){
+		return false;
+		}
+	
+	public void update() {};
+	
+	public static void delete() {};
+
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getCountryCode() {
+		return countryCode;
+	}
+
+	public void setCountryCode(String countryCode) {
+		this.countryCode = countryCode;
+	};
+	
+	
 }
