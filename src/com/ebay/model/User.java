@@ -1,9 +1,10 @@
 package com.ebay.model;
 
 /**
- * Class which simulates user of our service, and his characteristics.
- * 
- * @author mustafa
+ * This class creates user
+ * Every user has its own private info and 
+ * Date that he registered
+ * @author mustafa && emina
  *
  */
 public class User {
@@ -17,8 +18,7 @@ public class User {
 	public String role;
 
 	/**
-	 * Constructor
-	 * 
+	 * creates a user 
 	 * @param id
 	 * @param name
 	 * @param surname
@@ -26,7 +26,6 @@ public class User {
 	 * @param password
 	 * @param registered
 	 */
-	public User(int id, String name, String surname, String email,
-			String password, String registered, String role) {};
+	public User(int id, String name, String surname, String email, String password, String registered, String role) {};
 
 }

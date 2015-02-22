@@ -3,8 +3,7 @@ package com.ebay.model;
 
 /**
  * More information about user
- * 
- * @author mustafa
+ * @author mustafa && emina
  *
  */
 

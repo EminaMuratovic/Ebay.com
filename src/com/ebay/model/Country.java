@@ -1,19 +1,13 @@
 package com.ebay.model;
 
 /**
- * Class country determined from witch country is user, buyer or seller, to be
- * able to calculate the shipping
- * 
- * @author mustafa
- *
+ * Class country determined from witch country is the user
+ * @author mustafa && emina
  */
-
 public class Country {
-	
-	public int id;
+    int id;
 	public String name;
 	public String countryCode;
-	
 	
 	public Country(int id, String name, String countryCode) {};
 }
