@@ -10,5 +10,4 @@ public class Country {
 	public String countryCode;
 	
 	public Country(int id, String name, String countryCode) {};
-
 }

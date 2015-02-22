@@ -15,6 +15,7 @@ public class User {
 	public String email;
 	public String password;
 	public String registered;
+	public String role;
 
 	/**
 	 * creates a user 
@@ -25,7 +26,6 @@ public class User {
 	 * @param password
 	 * @param registered
 	 */
-	public User(int id, String name, String surname, String email,
-			String password, String registered) {};
+	public User(int id, String name, String surname, String email, String password, String registered, String role) {};
 
 }
